@@ -1,8 +1,18 @@
 ---
 layout: page
-title: Projects
+title: Genetic dissection of metal resistance
 permalink: /projects/
-description: Current Research Areas
+description: The Goal: We are currently characterizing the genetic factors that influence copper resistance as a part of a broader goal to understand the genetic control of physiological and behavioral responses to heavy metal pollution.
+
+The Rationale: Metal pollution is a ubiquitous and persistent threat to human and environmental health. Copper is a common pollutant and is an excellent “model metal” for studying heavy metal stress response: many of the genes that metabolize and detoxify copper also interact with non-essential heavy metals (e.g. lead and cadmium). Our work has demonstrated that copper resistance is phenotypically correlated with resistance to other metals (lead, cadmium, and others), with evidence of overlap in the genetic control of these resistance traits.
+​
+The Questions:
+What is the genetic basis of copper resistance?
+Do genetic factors that influence copper resistance have life stage-specific effects?
+Is the physiological response to copper influenced by behavioral responses to copper stress?
+What genetic factors influence the dynamic shift in gene expression in response to copper stress?
+Does copper resistance vary in natural populations in response to pollution resulting from mining activities?
+​
 nav: true
 nav_order: 2
 display_categories: [work, fun]

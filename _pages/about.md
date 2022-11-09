@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: ERE_Headshot.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Coming Soon to Richards Hall</p>
     <p>University of Oklahoma</p>
