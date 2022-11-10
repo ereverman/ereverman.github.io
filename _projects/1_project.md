@@ -14,3 +14,13 @@ Screen Shot 2021-10-27 at 1.52.03 PM.png
 
 *Even more detail:*
 Everman ER et al. 2021. Genetics. PMCID:PMC8045719; DOI:10.1093/genetics/iyaa020
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/QTLmap.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    QTL map of regions of the genome with allelic variants associated with resistance to copper stress in the DSPR. Genes in call-outs are among those functionally tested with RNAi that influence copper resistance when knocked down.
+</div>
