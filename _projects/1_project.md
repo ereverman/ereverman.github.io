@@ -1,80 +1,16 @@
 ---
 layout: page
 title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+description: What is the genetic basis of copper resistance?
+img: assets/img/QTLmap.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+*To the point:* The physiological response to copper stress is a genetically complex trait that is influenced by naturally occurring allelic variation in genes responsible for metabolism, detoxification, and transport of copper and other more dangerous heavy metals including lead and cadmium.  
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+*A little more detail:* I used Quantitative Trait Locus (QTL) mapping to identify genes with allelic variation that influence copper resistance (recently published in Genetics). This work was carried out using >1500 unique, genetically stable strains from the Drosophila Synthetic Population Resource (DSPR, King et al. 2012, Genetics). I measured copper resistance in adult female flies following 48 hr exposure to 50mM Copper(II) Sulfate and mapped 12 regions of the Drosophila genome (QTL) that are associated with adult copper resistance (Fig 1). These regions included hundreds of potential candidate genes, several of which are known to be involved in copper metabolism. This result demonstrates that allelic variation for key copper metabolism genes exists in natural populations despite the delicate balance required for proper copper homeostasis. I narrowed down genes implicated by QTL for functional testing and demonstrated that genes involved in copper metabolism such as copper chaperone for superoxide dismutase (Ccs) as well as genes involved in metabolism of other metals (Znt41F, trpl) influence the adult response to copper stress.
+Screen Shot 2021-10-27 at 1.52.03 PM.png
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+*Even more detail:*
+Everman ER et al. 2021. Genetics. PMCID:PMC8045719; DOI:10.1093/genetics/iyaa020
